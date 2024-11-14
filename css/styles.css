@@ -1,0 +1,554 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f0f0f5;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+}
+
+.search-login input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    margin-right: 1rem;
+    outline: none;
+}
+
+.search-login button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    padding: 2rem;
+    background-color: #EFC2AD;
+}
+
+.hero-content {
+    flex: 1;
+    margin: 100px 100px 0px 150px;
+
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.get-started {
+    background-color: #ffd900;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 600px;
+    padding-right: 150px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f5f5fa;
+    text-align: center;
+    min-height: 150px;
+}
+
+.feature {
+    max-width: 200px;
+}
+
+.feature .icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 2rem;
+    background-color: #EFC2AD;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    margin: 0 1rem;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.testimonial h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial p {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Cooking Videos Banner */
+.cooking-videos-banner {
+    background-image: url('https://i.ytimg.com/vi/YbvknpVonIk/hqdefault.jpg?v=5f4ffc51'); /* Replace with actual image path */
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:14rem 3rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 20px 0px 20px 0px;
+}
+
+.cooking-videos-banner .banner-content {
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.cooking-videos-banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.cooking-videos-banner p {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* Prep Time Section */
+.prep-time-section {
+    background-color: #EFC2AD;
+    padding: 2rem 0;
+}
+
+.prep-time-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.prep-time-content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.prep-time-content .text-content {
+    max-width: 400px;
+    margin-left: 1rem;
+}
+
+.prep-time-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.prep-time-content p {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.prep-time-content a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Delivery Section */
+.delivery-section {
+    background-color: #fcd6ca;
+    padding: 2rem 0;
+}
+
+.delivery-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.delivery-content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.delivery-content .text-content {
+    max-width: 400px;
+    margin-right: 1rem;
+}
+
+.delivery-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.delivery-content p {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.partner {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.partner p {
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+.wolt-button {
+    background-color: #0099ff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Get Started Section */
+.get-started-block {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+.get-started-block h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.cuisines {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cuisine {
+    text-align: center;
+}
+
+.cuisine img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cuisine p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    color: #333;
+}
+
+.category-button {
+    background-color: #ffd900;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f0f5;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-nav a,
+.social-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-logo {
+    font-weight: bold;
+}
+
+.footer-logo p:last-child {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .navbar nav {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .search-login {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .search-login input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .hero-content {
+        margin: 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    /* Features Section */
+    .features {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .feature {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .testimonial {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* Cooking Videos Banner */
+    .cooking-videos-banner {
+        padding: 4rem 1rem;
+        background-size: cover;
+    }
+
+    .cooking-videos-banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .cooking-videos-banner p {
+        font-size: 0.9rem;
+    }
+
+    /* Prep Time Section */
+    .prep-time-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .prep-time-content img {
+        width: 80%;
+        max-width: 250px;
+        margin-bottom: 1rem;
+    }
+
+    .prep-time-content .text-content {
+        margin-left: 0;
+        max-width: 90%;
+    }
+
+    /* Delivery Section */
+    .delivery-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .delivery-content img {
+        width: 80%;
+        max-width: 250px;
+        margin-bottom: 1rem;
+    }
+
+    .delivery-content .text-content {
+        margin-right: 0;
+        max-width: 90%;
+    }
+
+    /* Get Started Section */
+    .get-started h2 {
+        font-size: 1.5rem;
+    }
+
+    .cuisines {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuisine img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .category-button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+
+    .social-links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-logo {
+        margin-bottom: 1rem;
+    }
+}
